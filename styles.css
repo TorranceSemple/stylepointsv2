@@ -35,8 +35,8 @@ body {
 
 .about-text {
     position: absolute; /* Position relative to the #loading-screen */
-    top: 25px; /* Adjust the top position to your liking */
-    left: 550px; /* Adjust the right position to your liking */
+    top: 50px; /* Adjust the top position to your liking */
+    left: 10px; /* Adjust the right position to your liking */
     font-size: 24px;
     color: white;
     z-index: 2; /* Add this to control the stacking order */
@@ -44,8 +44,8 @@ body {
 
 .projects-text {
     position: absolute; /* Position relative to the #loading-screen */
-    top: 25px; /* Adjust the top position to your liking */
-    right: 550px; /* Adjust the right position to your liking */
+    top: 50px; /* Adjust the top position to your liking */
+    right: 15px; /* Adjust the right position to your liking */
     font-size: 24px;
     color: white;
     z-index: 2; /* Add this to control the stacking order */
