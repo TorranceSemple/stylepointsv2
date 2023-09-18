@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.back-text {
+    position: fixed;
+    z-index: 100;
+    top: 10px; /* Adjust the top position to your liking */
+    left: 10px; /* Adjust the left position to your liking */
+    font-size: 24px;
+    color: white; /* Change the text color to red or any other color */
+}
+
+#back-ground {
+    position: fixed;
+    background-image: url("./images/giphy.gif");
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+#image-one {
+    position: fixed;
+    background-image: url("./images/legit.png");
+    margin: 0;
+    padding: 0;
+    background-size: 50% 80%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent; /* Change this to transparent */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    background-position: center center;
+    z-index: 1; /* Add this to control the stacking order */
+}
